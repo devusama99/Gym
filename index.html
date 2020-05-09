@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Golds Gym providing you te best service in your area">
+    <meta keywords="gym , bodybuilding , bodybuilder , fitness ,karate ,yoga ,fitness club">
+    <link rel="icon" href="img/logo.ico">
+    <title>Golds Gym</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:660px)" href="css/mobile.css" >
+    <link rel="stylesheet" media="screen and (min-width:661px) and (max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width:769px) and (max-width:1024px)" href="css/widscreen .css">
+    <script src="https://kit.fontawesome.com/317f611a58.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma+2|Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body id="home">
+        <!-- navbar-mobile -->
+        <Nav class="navbar">
+            <input type="checkbox" name="check" id="menu">
+            <label for="menu" class="open"><img src="img/menu.svg" alt="menu"></label>
+            <label for="menu" class="close"><img src="img/close.svg" alt="close"></label>
+            <div id="items">
+                <ul>
+                    <li><a href="#home">Home</a></li><hr>
+                    <li><a href="#plans">Plans</a></li><hr>
+                    <li><a href="#services">Services</a></li><hr>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </Nav>
+        <!-- navbar -->
+        <nav id="navbar">
+            <div id="nav-buttons">
+                <ul>
+                    <li><a href="#home">Home</a></li><hr>
+                    <li><a href="#plans">Plans</a></li><hr>
+                    <li><a href="#services">Services</a></li><hr>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+    </nav>                                                                                      
+        <div id="container">
+            <div id="div1">               
+                <div id="content">
+                    <h1>Dare To Begin</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque illo inventore molestiae ipsam magnam ab nihil consectetur molestias sequi cupiditate.
+                    </p>
+                </div>  
+            </div>               
+        </div>  
+        <section id="plans">
+            <h1>Membership Plans</h1>
+            <div id="div2">
+                <div class="plan">
+                    <i class="fas fa-money-bill fa-4x"></i>
+                    <div class="plans-content">
+                        <h2>Basic</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis.</li>
+                        </ul>                        
+                    </div>
+                </div>
+                <div class="plan">
+                    <i class="fas fa-money-bill-alt fa-4x"></i>                    
+                    <div class="plans-content">
+                        <h2>Standard</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis.</li>                         
+                        </ul>
+                    </div>
+                </div>
+                <div class="plan">
+                    <i class="fas fa-money-check-alt fa-4x"></i>
+                    <div class="plans-content">
+                        <h2>Premium</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>     
+        <section id="services">
+            <h1><span class="pt">Our</span> Services</h1>
+            <div id="div3">
+                <div class="service">
+                    <img src="img/male-female.jpg" alt="For Male And Females">
+                    <div class="service-content">
+                        <h2>Males And Females</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem voluptatem, reprehenderit aperiam eius non dolore sunt officiis fuga commodi. Tempore mollitia aliquam sint eligendi!</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <img src="img/instructor.jpg" alt="Instructor">
+                    <div class="service-content">
+                        <h2>Instructor</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quasi sunt delectus facere dicta maiores! Nobis voluptatibus dignissimos inventore doloribus repudiandae quo perspiciatis?</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <img src="img/dietician.jpg" alt="Dietician">
+                    <div class="service-content">
+                        <h2>Dietician</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quod voluptatem quaerat veritatis temporibus amet, cum, omnis recusandae, et officiis tempora harum expedita voluptas dolore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Register &sol; Contact</h1>
+            <div id="form-social">
+
+                <form action="process.php"  method="POST">
+                    <label for="name">Name</label><br>
+                    <input class="ok" type="text" name="name" id="name"><br><br>
+                    <label  for="email">Email</label><br>
+                    <input class="ok" type="email" name="email" id="email"><br><br>
+                    <label for="gender">Sex</label>
+                    <input type="radio"  name="sex" id="male"><p>Male &nbsp; &nbsp;&nbsp; &nbsp;</p>
+                    <input type="radio" name="sex" id="female"><p>Female</p><br><br>
+                    <label for="plan">Plan</label>
+                    <input type="radio" name="plan" id="basic"><p>Basic &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                    <input type="radio" name="plan" id="standard"><p>Standard &nbsp; &nbsp;&nbsp; </p>
+                    <input type="radio" name="plan" id="premium"> <p>Premium</p><br><br>
+                    <button>Submit</button>
+                </form>
+                <div id="social-media">
+                    <div id="location">
+                        <i class="fas fa-map-marked-alt fa-3x"></i>
+                        <div id="location-content">
+                            <h2>Location</h2>
+                            <p>716 Prospect Street
+                                Egg Harbor Township, NJ 08234</p>
+                        </div>
+                    </div>
+                    <div id="social-handles">
+                        <i class="fas fa-users fa-3x"></i>
+                        <div id="social-handles-content">
+                            <h2>Social Media</h2>
+                            <ul>
+                                <li><a href="" target="_blank"><i class="fab fa-facebook-f fa-2x"></i><p>Facebook</p></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-instagram fa-2x"></i><p>Instagram</p></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-twitter fa-2x"></i> <p>Twitter</p></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div id="phone">
+                        <i class="fas fa-phone-alt fa-3x"></i>
+                        <div id="phone-content">
+                            <h2>Phone</h2>
+                            <p>+1-202-555-0131</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <p>All Rights Reserved &copy; | Golds Gym 2020</p>
+            </div>
+        </footer>
+            <!-- jjquery cdn -->
+     <script
+     src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+     crossorigin="anonymous"></script>
+     <!-- local js -->
+     <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+#plans
+{
+    display: flex;
+    flex-direction: column;
+}
+#plans #div2
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.plan
+{
+
+    margin-bottom: 4rem;
+    width: 600px;
+
+}
+.plan i
+{
+    margin-right: 2rem;
+}
+/* background */
+#container
+{
+    background: url(/img/Landing\ BG.jpg) no-repeat center  center/cover;
+    height: 96vh;
+    
+}
+/* overlay */
+#div1
+{
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    height: 96vh;
+    left: 0;
+    right: 0;
+}
